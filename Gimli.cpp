@@ -9,6 +9,7 @@
 #include <fstream>
 #include <algorithm>
 #include "gurobi_c++.h"
+#include <cstring>
 using namespace std;
 
 bool compare(Column c0, Column c1) {
