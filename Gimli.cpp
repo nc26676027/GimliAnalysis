@@ -1580,14 +1580,14 @@ void Gimli::search6RSFSCollision(int threadNum) {
 		}
 	}
 	//additional conditions on S^0
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[0][3], 0x7c2c642a);
+	loadConstraintOnTheOutputSingleDifference(model, d[0][3], 0x7c2c642a);
 	//additional conditions on S^3
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[3][3], 0x80010008);
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[3][4], 0x00002000);
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[3][5], 0x44400080);
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[3][9], 0x80010008);
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[3][10], 0x00002000);
-	loadConstraintOnTheOutputSingleDifference(outcvc, d[3][11], 0x44400080);
+	loadConstraintOnTheOutputSingleDifference(model, d[3][3], 0x80010008);
+	loadConstraintOnTheOutputSingleDifference(model, d[3][4], 0x00002000);
+	loadConstraintOnTheOutputSingleDifference(model, d[3][5], 0x44400080);
+	loadConstraintOnTheOutputSingleDifference(model, d[3][9], 0x80010008);
+	loadConstraintOnTheOutputSingleDifference(model, d[3][10], 0x00002000);
+	loadConstraintOnTheOutputSingleDifference(model, d[3][11], 0x44400080);
 	//additional conditions on S^4
 	loadConstraintOnTheOutputSingleDifference(model, d[4][3], 0x80);
 	loadConstraintOnTheOutputSingleDifference(model, d[4][4], 0x400000);
